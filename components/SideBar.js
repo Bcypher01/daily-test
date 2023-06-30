@@ -79,6 +79,22 @@ export const SideBar = () => {
               />
             </svg>
             <span>Dashboard</span>
+            <div className="ml-auto">
+              <svg
+                width="18"
+                height="18"
+                className="ml-10 mt-1"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.5 6.75L9 11.25L4.5 6.75"
+                  stroke="white"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
           </li>
           <ul className={`${toggle && "hidden"} pl-12 py-3 space-y-2`}>
             <li>Commerce</li>
