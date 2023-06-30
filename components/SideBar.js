@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export const SideBar = () => {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
   return (
     <div className="items-center py-4 bg-slate-900 h-full">
       <div className="pb-4 border-b border-black">
