@@ -1,10 +1,11 @@
 export const Statistics = () => {
   return (
     <div className="flex space-x-4">
-      <div className="w-1/4 flex border rounded bg-white space-x-3 py-3 px-3">
+      <div className="w-1/4 flex border rounded bg-white space-x-1 md:space-x-3 py-3 md:px-3">
         <svg
           width="45"
           height="45"
+          className="hidden md:visible"
           viewBox="0 0 45 45"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -19,10 +20,11 @@ export const Statistics = () => {
           <p className="font-bold text-xl">$2314</p>
         </div>
       </div>
-      <div className="w-1/4 flex border rounded bg-white space-x-3 py-3 px-3">
+      <div className="w-1/4 flex border rounded bg-white space-x-1 md:space-x-3 py-3 md:px-3">
         <svg
           width="45"
           height="45"
+          className="hidden md:visible"
           viewBox="0 0 45 45"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -37,10 +39,11 @@ export const Statistics = () => {
           <p className="font-bold text-xl">$2314</p>
         </div>
       </div>
-      <div className="w-1/4 flex border rounded bg-white space-x-3 py-3 px-3">
+      <div className="w-1/4 flex border rounded bg-white space-x-1 md:space-x-3 py-3 md:px-3">
         <svg
           width="45"
           height="45"
+          className="hidden md:visible"
           viewBox="0 0 45 45"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -55,10 +58,11 @@ export const Statistics = () => {
           <p className="font-bold text-xl">$2314</p>
         </div>
       </div>
-      <div className="w-1/4 flex border rounded bg-white space-x-3 py-3 px-3">
+      <div className="w-1/4 flex border rounded bg-white space-x-1 md:space-x-3 py-3 md:px-3">
         <svg
           width="45"
           height="45"
+          className="hidden md:visible"
           viewBox="0 0 45 45"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

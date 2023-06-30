@@ -11,8 +11,8 @@ const Pagination = () => {
           xmlns="http://www.w3.org/2000/svg"
         >
           <g opacity="0.4">
-            <path d="M9.5 14L5 9.5L9.5 5" stroke="#262626" stroke-width="2" />
-            <path d="M14 14L9.5 9.5L14 5" stroke="#262626" stroke-width="2" />
+            <path d="M9.5 14L5 9.5L9.5 5" stroke="#262626" strokeWidth="2" />
+            <path d="M14 14L9.5 9.5L14 5" stroke="#262626" strokeWidth="2" />
           </g>
         </svg>
         <span className="border border-neutral-400 cursor-pointer rounded-md text-center pt-1 w-[35px] h-[35px]">
@@ -35,8 +35,8 @@ const Pagination = () => {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <path d="M9.5 14L14 9.5L9.5 5" stroke="#262626" stroke-width="2" />
-          <path d="M5 14L9.5 9.5L5 5" stroke="#262626" stroke-width="2" />
+          <path d="M9.5 14L14 9.5L9.5 5" stroke="#262626" strokeWidth="2" />
+          <path d="M5 14L9.5 9.5L5 5" stroke="#262626" strokeWidth="2" />
         </svg>
       </div>
     </div>

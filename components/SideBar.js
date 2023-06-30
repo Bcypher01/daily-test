@@ -92,7 +92,7 @@ export const SideBar = () => {
                   <path
                     d="M13.5 6.75L9 11.25L4.5 6.75"
                     stroke="white"
-                    stroke-width="2"
+                    strokeWidth="2"
                   />
                 </svg>
               ) : (
@@ -107,7 +107,7 @@ export const SideBar = () => {
                   <path
                     d="M13.5 11.25L9 6.75L4.5 11.25"
                     stroke="white"
-                    stroke-width="2"
+                    strokeWidth="2"
                   />
                 </svg>
               )}
@@ -186,7 +186,7 @@ export const SideBar = () => {
                 <path
                   d="M13.5 6.75L9 11.25L4.5 6.75"
                   stroke="white"
-                  stroke-width="2"
+                  strokeWidth="2"
                 />
               </svg>
             </div>
@@ -257,7 +257,7 @@ export const SideBar = () => {
                 <path
                   d="M13.5 6.75L9 11.25L4.5 6.75"
                   stroke="white"
-                  stroke-width="2"
+                  strokeWidth="2"
                 />
               </svg>
             </div>
@@ -328,7 +328,7 @@ export const SideBar = () => {
                 <path
                   d="M13.5 6.75L9 11.25L4.5 6.75"
                   stroke="white"
-                  stroke-width="2"
+                  strokeWidth="2"
                 />
               </svg>
             </div>
@@ -399,7 +399,7 @@ export const SideBar = () => {
                 <path
                   d="M13.5 6.75L9 11.25L4.5 6.75"
                   stroke="white"
-                  stroke-width="2"
+                  strokeWidth="2"
                 />
               </svg>
             </div>
@@ -470,7 +470,7 @@ export const SideBar = () => {
                 <path
                   d="M13.5 6.75L9 11.25L4.5 6.75"
                   stroke="white"
-                  stroke-width="2"
+                  strokeWidth="2"
                 />
               </svg>
             </div>
@@ -541,7 +541,7 @@ export const SideBar = () => {
                 <path
                   d="M13.5 6.75L9 11.25L4.5 6.75"
                   stroke="white"
-                  stroke-width="2"
+                  strokeWidth="2"
                 />
               </svg>
             </div>
@@ -612,7 +612,7 @@ export const SideBar = () => {
                 <path
                   d="M13.5 6.75L9 11.25L4.5 6.75"
                   stroke="white"
-                  stroke-width="2"
+                  strokeWidth="2"
                 />
               </svg>
             </div>

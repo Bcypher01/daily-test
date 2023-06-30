@@ -2,7 +2,9 @@ export const TopBar = () => {
   return (
     <div className="w-full bg-white">
       <div className="flex py-2 px-4">
-        <h1 className="cursor-pointer font-semibold text-xl">Add new post</h1>
+        <h1 className="cursor-pointer font-semibold md:text-xl">
+          Add new post
+        </h1>
         <div className="px-6">
           <ul className="flex space-x-4 pt-1 font-light">
             <li className="flex cursor-pointer space-x-1">

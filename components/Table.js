@@ -1,41 +1,41 @@
 export const Table = () => {
   return (
-    <div class="relative overflow-x-auto shadow-md sm:rounded-lg my-4">
-      <table class="w-full text-md text-left text-gray-500">
-        <thead class="text-lg text-gray-700 bg-gray-50">
+    <div className="relative overflow-x-auto shadow-md sm:rounded-lg my-4">
+      <table className="w-full text-md text-left text-gray-500">
+        <thead className="text-lg text-gray-700 bg-gray-50">
           <tr>
-            <th scope="col" class="px-6 py-3 border-r">
+            <th scope="col" className="px-6 py-3 border-r">
               Table Title
             </th>
-            <th scope="col" class="px-6 py-3 border-r">
+            <th scope="col" className="px-6 py-3 border-r">
               Table Title
             </th>
-            <th scope="col" class="px-6 py-3 border-r">
+            <th scope="col" className="px-6 py-3 border-r">
               Table Title
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th scope="col" className="px-6 py-3">
               Table Title
             </th>
           </tr>
         </thead>
         <tbody>
-          <tr class="bg-white border-b dark:bg-gray-900">
+          <tr className="bg-white border-b dark:bg-gray-900">
             <th
               scope="row"
-              class="px-6 py-4 border-r text-md text-neutral-800 font-normal text-gray-900 whitespace-nowrap"
+              className="px-6 py-4 border-r text-md text-neutral-800 font-normal text-gray-900 whitespace-nowrap"
             >
               Etiam purus in
             </th>
-            <td class="px-6 py-4 border-r text-md text-neutral-800">
+            <td className="px-6 py-4 border-r text-md text-neutral-800">
               Curabitur donec duis
             </td>
-            <td class="px-6 py-4 border-r text-md text-neutral-800">
+            <td className="px-6 py-4 border-r text-md text-neutral-800">
               Morbi pharetra, accumsan
             </td>
-            <td class="flex space-x-2 px-6 py-4">
+            <td className="flex space-x-2 px-6 py-4">
               <a
                 href="#"
-                class="flex space-x-1 font-medium text-white bg-blue-600 px-2 py-1 rounded"
+                className="flex space-x-1 font-medium text-white bg-blue-600 px-2 py-1 rounded"
               >
                 <svg
                   width="18"
@@ -53,7 +53,7 @@ export const Table = () => {
               </a>
               <a
                 href="#"
-                class="flex space-x-1 font-medium text-white bg-amber-600 px-2 py-1 rounded"
+                className="flex space-x-1 font-medium text-white bg-amber-600 px-2 py-1 rounded"
               >
                 <svg
                   width="18"
@@ -71,23 +71,23 @@ export const Table = () => {
               </a>
             </td>
           </tr>
-          <tr class="border-b bg-gray-50 dark:bg-gray-800">
+          <tr className="border-b bg-gray-50 dark:bg-gray-800">
             <th
               scope="row"
-              class="px-6 py-4 border-r text-md text-neutral-800 font-normal text-gray-900 whitespace-nowrap"
+              className="px-6 py-4 border-r text-md text-neutral-800 font-normal text-gray-900 whitespace-nowrap"
             >
               Duis eget habitant
             </th>
-            <td class="px-6 py-4 border-r text-md text-neutral-800">
+            <td className="px-6 py-4 border-r text-md text-neutral-800">
               At amet odio
             </td>
-            <td class="px-6 py-4 border-r text-md text-neutral-800">
+            <td className="px-6 py-4 border-r text-md text-neutral-800">
               Commodo eget scelerisque
             </td>
-            <td class="flex space-x-2 px-6 py-4">
+            <td className="flex space-x-2 px-6 py-4">
               <a
                 href="#"
-                class="flex space-x-1 font-medium text-white bg-blue-600 px-2 py-1 rounded"
+                className="flex space-x-1 font-medium text-white bg-blue-600 px-2 py-1 rounded"
               >
                 <svg
                   width="18"
@@ -105,7 +105,7 @@ export const Table = () => {
               </a>
               <a
                 href="#"
-                class="flex space-x-1 font-medium text-white bg-amber-600 px-2 py-1 rounded"
+                className="flex space-x-1 font-medium text-white bg-amber-600 px-2 py-1 rounded"
               >
                 <svg
                   width="18"
@@ -123,23 +123,23 @@ export const Table = () => {
               </a>
             </td>
           </tr>
-          <tr class="bg-white border-b dark:bg-gray-900">
+          <tr className="bg-white border-b dark:bg-gray-900">
             <th
               scope="row"
-              class="px-6 py-4 border-r text-md text-neutral-800 font-normal text-gray-900 whitespace-nowrap"
+              className="px-6 py-4 border-r text-md text-neutral-800 font-normal text-gray-900 whitespace-nowrap"
             >
               Aliquam velit lacus
             </th>
-            <td class="px-6 py-4 border-r text-md text-neutral-800">
+            <td className="px-6 py-4 border-r text-md text-neutral-800">
               Pellentesque egestas placerat
             </td>
-            <td class="px-6 py-4 border-r text-md text-neutral-800">
+            <td className="px-6 py-4 border-r text-md text-neutral-800">
               Tortor habitant sit
             </td>
-            <td class="flex space-x-2 px-6 py-4">
+            <td className="flex space-x-2 px-6 py-4">
               <a
                 href="#"
-                class="flex space-x-1 font-medium text-white bg-blue-600 px-2 py-1 rounded"
+                className="flex space-x-1 font-medium text-white bg-blue-600 px-2 py-1 rounded"
               >
                 <svg
                   width="18"
@@ -157,7 +157,7 @@ export const Table = () => {
               </a>
               <a
                 href="#"
-                class="flex space-x-1 font-medium text-white bg-amber-600 px-2 py-1 rounded"
+                className="flex space-x-1 font-medium text-white bg-amber-600 px-2 py-1 rounded"
               >
                 <svg
                   width="18"
@@ -175,21 +175,23 @@ export const Table = () => {
               </a>
             </td>
           </tr>
-          <tr class="border-b bg-gray-50 dark:bg-gray-800">
+          <tr className="border-b bg-gray-50 dark:bg-gray-800">
             <th
               scope="row"
-              class="px-6 py-4 border-r text-md text-neutral-800 font-normal text-gray-900 whitespace-nowrap"
+              className="px-6 py-4 border-r text-md text-neutral-800 font-normal text-gray-900 whitespace-nowrap"
             >
               Fermentum scelerisque ultricies
             </th>
-            <td class="px-6 py-4 border-r text-md text-neutral-800">
+            <td className="px-6 py-4 border-r text-md text-neutral-800">
               Morbi sagittis nulla
             </td>
-            <td class="px-6 py-4 border-r text-md text-neutral-800">Phone</td>
-            <td class="flex space-x-2 px-6 py-4">
+            <td className="px-6 py-4 border-r text-md text-neutral-800">
+              Phone
+            </td>
+            <td className="flex space-x-2 px-6 py-4">
               <a
                 href="#"
-                class="flex space-x-1 font-medium text-white bg-blue-600 px-2 py-1 rounded"
+                className="flex space-x-1 font-medium text-white bg-blue-600 px-2 py-1 rounded"
               >
                 <svg
                   width="18"
@@ -207,7 +209,7 @@ export const Table = () => {
               </a>
               <a
                 href="#"
-                class="flex space-x-1 font-medium text-white bg-amber-600 px-2 py-1 rounded"
+                className="flex space-x-1 font-medium text-white bg-amber-600 px-2 py-1 rounded"
               >
                 <svg
                   width="18"
@@ -228,20 +230,20 @@ export const Table = () => {
           <tr>
             <th
               scope="row"
-              class="px-6 py-4 border-r text-md text-neutral-800 font-normal text-gray-900 whitespace-nowrap"
+              className="px-6 py-4 border-r text-md text-neutral-800 font-normal text-gray-900 whitespace-nowrap"
             >
               Integer semper pellentesque
             </th>
-            <td class="px-6 py-4 border-r text-md text-neutral-800">
+            <td className="px-6 py-4 border-r text-md text-neutral-800">
               Neque turpis enim
             </td>
-            <td class="px-6 py-4 border-r text-md text-neutral-800">
+            <td className="px-6 py-4 border-r text-md text-neutral-800">
               Egestas non sociis
             </td>
-            <td class="flex space-x-2 px-6 py-4">
+            <td className="flex space-x-2 px-6 py-4">
               <a
                 href="#"
-                class="flex space-x-1 font-medium text-white bg-blue-600 px-2 py-1 rounded"
+                className="flex space-x-1 font-medium text-white bg-blue-600 px-2 py-1 rounded"
               >
                 <svg
                   width="18"
@@ -259,7 +261,7 @@ export const Table = () => {
               </a>
               <a
                 href="#"
-                class="flex space-x-1 font-medium text-white bg-amber-600 px-2 py-1 rounded"
+                className="flex space-x-1 font-medium text-white bg-amber-600 px-2 py-1 rounded"
               >
                 <svg
                   width="18"
