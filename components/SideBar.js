@@ -80,20 +80,37 @@ export const SideBar = () => {
             </svg>
             <span>Dashboard</span>
             <div>
-              <svg
-                width="18"
-                height="18"
-                className="absolute right-6 top-1/2 transform -translate-y-2/4"
-                viewBox="0 0 18 18"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M13.5 6.75L9 11.25L4.5 6.75"
-                  stroke="white"
-                  stroke-width="2"
-                />
-              </svg>
+              {toggle ? (
+                <svg
+                  width="18"
+                  height="18"
+                  className="absolute right-6 top-1/2 transform -translate-y-2/4"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.5 6.75L9 11.25L4.5 6.75"
+                    stroke="white"
+                    stroke-width="2"
+                  />
+                </svg>
+              ) : (
+                <svg
+                  width="18"
+                  height="18"
+                  className="absolute right-6 top-1/2 transform -translate-y-2/4"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.5 11.25L9 6.75L4.5 11.25"
+                    stroke="white"
+                    stroke-width="2"
+                  />
+                </svg>
+              )}
             </div>
           </li>
           <ul className={`${toggle && "hidden"} pl-12 py-3 space-y-2`}>

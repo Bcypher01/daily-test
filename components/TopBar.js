@@ -40,7 +40,7 @@ export const TopBar = () => {
           </ul>
         </div>
 
-        <div className="bg-white relative rounded-full text-black px-3 ml-auto">
+        <div className="hidden md:flex bg-white relative rounded-full text-black px-3 ml-auto">
           <input
             type="text"
             name="search"

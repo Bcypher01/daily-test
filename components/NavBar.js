@@ -3,7 +3,7 @@ import Image from "next/image";
 export const NavBar = () => {
   return (
     <div className="flex w-full bg-black text-white py-3 px-6">
-      <ul className="flex flex-col md:flex-row md:space-x-6 md:mt-0 md:text-sm md:font-semibold md:border-0">
+      <ul className="flex space-x-6 md:mt-0 md:text-sm md:font-semibold md:border-0">
         <li className="flex space-x-1">
           <svg
             width="18"
@@ -66,7 +66,7 @@ export const NavBar = () => {
           <span>Settings</span>
         </li>
       </ul>
-      <div className="bg-white rounded-full text-black px-3 ml-auto">
+      <div className="hidden md:flex bg-white rounded-full text-black px-3 ml-auto">
         <span className="flex space-x-2">
           <Image
             alt="background"
