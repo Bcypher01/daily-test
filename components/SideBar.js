@@ -3,7 +3,7 @@ import { useState } from "react";
 export const SideBar = () => {
   const [toggle, setToggle] = useState(true);
   return (
-    <div className="items-center py-4 bg-slate-900 h-screen">
+    <div className="items-center py-4 bg-slate-900 h-full">
       <div className="pb-4 border-b border-black">
         <div className="px-6">
           <button className="w-full flex space-x-2 rounded bg-gray-100 py-2 text-left pl-3">
