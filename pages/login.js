@@ -44,7 +44,7 @@ export default function login() {
                   className="w-full py-1 px-2 focus:outline-none rounded border border-gray-200"
                 />
               </div>
-              <p className="text-right text-gray-700 py-3 font-semibold">
+              <p className="text-right text-gray-700 py-3 font-semibold cursor-pointer">
                 Forgot password?
               </p>
               <button
