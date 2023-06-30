@@ -12,7 +12,7 @@ export const Dashboard = () => {
           Sed tortor, sed velit ridiculus ipsum pharetra lacus odio gravida
           augue enim
         </p>
-        <div className="w-full flex p-3 bg-red-100 text-red-900 border border-red-400 rounded px-3 space-x-2">
+        <div className="w-full flex p-3 bg-red-50 text-red-900 border border-red-400 rounded px-3 space-x-2">
           <svg
             width="24"
             height="24"
@@ -26,7 +26,9 @@ export const Dashboard = () => {
             />
           </svg>
 
-          <span>Senectus malesuada suspendisse elit amet vitae.</span>
+          <span className="text-red-900">
+            Senectus malesuada suspendisse elit amet vitae.
+          </span>
         </div>
 
         <Table />
