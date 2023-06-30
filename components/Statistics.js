@@ -5,7 +5,7 @@ export const Statistics = () => {
         <svg
           width="45"
           height="45"
-          className="hidden md:visible"
+          className="hidden md:block"
           viewBox="0 0 45 45"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ export const Statistics = () => {
         <svg
           width="45"
           height="45"
-          className="hidden md:visible"
+          className="hidden md:block"
           viewBox="0 0 45 45"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ export const Statistics = () => {
         <svg
           width="45"
           height="45"
-          className="hidden md:visible"
+          className="hidden md:block"
           viewBox="0 0 45 45"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +62,7 @@ export const Statistics = () => {
         <svg
           width="45"
           height="45"
-          className="hidden md:visible"
+          className="hidden md:block"
           viewBox="0 0 45 45"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
