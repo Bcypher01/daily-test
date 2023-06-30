@@ -79,7 +79,7 @@ export const SideBar = () => {
               />
             </svg>
             <span>Dashboard</span>
-            <div className="ml-auto">
+            <div className="float-right">
               <svg
                 width="18"
                 height="18"
