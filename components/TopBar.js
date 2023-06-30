@@ -45,7 +45,7 @@ export const TopBar = () => {
             type="text"
             name="search"
             placeholder="Search"
-            className="w-80 focus:outline-none py-1 px-4 font-light w-full rounded border border-gray-200"
+            className="w-[350px] focus:outline-none py-1 px-4 font-light w-full rounded border border-gray-200"
           />
           <div className="absolute top-0 py-1 pr-6 right-0">
             <svg
