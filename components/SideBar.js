@@ -26,7 +26,7 @@ export const SideBar = () => {
       <ul className="block space-y-2 py-6 text-white">
         <div className="border-b pb-3 border-black">
           <li
-            className="cursor-pointer flex space-x-2 px-6"
+            className="relative cursor-pointer flex space-x-2 px-6"
             onClick={() => setToggle(!toggle)}
           >
             <svg
@@ -79,11 +79,11 @@ export const SideBar = () => {
               />
             </svg>
             <span>Dashboard</span>
-            <div className="float-right">
+            <div>
               <svg
                 width="18"
                 height="18"
-                className="ml-10 mt-1"
+                className="absolute right-6 top-1/2 transform -translate-y-2/4"
                 viewBox="0 0 18 18"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -106,7 +106,7 @@ export const SideBar = () => {
           </ul>
         </div>
         <div className="border-b pb-3 border-black">
-          <li className="cursor-pointer flex space-x-2 px-6">
+          <li className="relative cursor-pointer flex space-x-2 px-6">
             <svg
               width="18"
               height="18"
@@ -157,11 +157,27 @@ export const SideBar = () => {
               />
             </svg>
             <span>Application</span>
+            <div>
+              <svg
+                width="18"
+                height="18"
+                className="absolute right-6 top-1/2 transform -translate-y-2/4"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.5 6.75L9 11.25L4.5 6.75"
+                  stroke="white"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
           </li>
         </div>
 
         <div className="border-b pb-3 border-black">
-          <li className="cursor-pointer flex space-x-2 px-6">
+          <li className="relative cursor-pointer flex space-x-2 px-6">
             <svg
               width="18"
               height="18"
@@ -212,11 +228,27 @@ export const SideBar = () => {
               />
             </svg>
             <span>Elements</span>
+            <div>
+              <svg
+                width="18"
+                height="18"
+                className="absolute right-6 top-1/2 transform -translate-y-2/4"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.5 6.75L9 11.25L4.5 6.75"
+                  stroke="white"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
           </li>
         </div>
 
         <div className="border-b pb-3 border-black">
-          <li className="cursor-pointer flex space-x-2 px-6">
+          <li className="relative cursor-pointer flex space-x-2 px-6">
             <svg
               width="18"
               height="18"
@@ -267,11 +299,27 @@ export const SideBar = () => {
               />
             </svg>
             <span>Forms</span>
+            <div>
+              <svg
+                width="18"
+                height="18"
+                className="absolute right-6 top-1/2 transform -translate-y-2/4"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.5 6.75L9 11.25L4.5 6.75"
+                  stroke="white"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
           </li>
         </div>
 
         <div className="border-b pb-3 border-black">
-          <li className="cursor-pointer flex space-x-2 px-6">
+          <li className="relative cursor-pointer flex space-x-2 px-6">
             <svg
               width="18"
               height="18"
@@ -322,11 +370,27 @@ export const SideBar = () => {
               />
             </svg>
             <span>Plugins</span>
+            <div>
+              <svg
+                width="18"
+                height="18"
+                className="absolute right-6 top-1/2 transform -translate-y-2/4"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.5 6.75L9 11.25L4.5 6.75"
+                  stroke="white"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
           </li>
         </div>
 
         <div className="border-b pb-3 border-black">
-          <li className="cursor-pointer flex space-x-2 px-6">
+          <li className="relative cursor-pointer flex space-x-2 px-6">
             <svg
               width="18"
               height="18"
@@ -377,11 +441,27 @@ export const SideBar = () => {
               />
             </svg>
             <span>Elements</span>
+            <div>
+              <svg
+                width="18"
+                height="18"
+                className="absolute right-6 top-1/2 transform -translate-y-2/4"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.5 6.75L9 11.25L4.5 6.75"
+                  stroke="white"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
           </li>
         </div>
 
         <div className="border-b pb-3 border-black">
-          <li className="cursor-pointer flex space-x-2 px-6">
+          <li className="relative cursor-pointer flex space-x-2 px-6">
             <svg
               width="18"
               height="18"
@@ -432,11 +512,27 @@ export const SideBar = () => {
               />
             </svg>
             <span>Datagrids</span>
+            <div>
+              <svg
+                width="18"
+                height="18"
+                className="absolute right-6 top-1/2 transform -translate-y-2/4"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.5 6.75L9 11.25L4.5 6.75"
+                  stroke="white"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
           </li>
         </div>
 
         <div className="border-b pb-3 border-black">
-          <li className="cursor-pointer flex space-x-2 px-6">
+          <li className="relative cursor-pointer flex space-x-2 px-6">
             <svg
               width="18"
               height="18"
@@ -487,6 +583,22 @@ export const SideBar = () => {
               />
             </svg>
             <span>Settings</span>
+            <div>
+              <svg
+                width="18"
+                height="18"
+                className="absolute right-6 top-1/2 transform -translate-y-2/4"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.5 6.75L9 11.25L4.5 6.75"
+                  stroke="white"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
           </li>
         </div>
       </ul>
