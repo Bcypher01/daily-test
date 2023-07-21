@@ -19,7 +19,7 @@ export const Table = () => {
           </tr>
         </thead>
         <tbody>
-          <tr className="bg-white border-b dark:bg-gray-900">
+          <tr className="bg-white border-b">
             <th
               scope="row"
               className="px-6 py-4 border-r text-md text-neutral-800 font-normal text-gray-900 whitespace-nowrap"
@@ -71,7 +71,7 @@ export const Table = () => {
               </a>
             </td>
           </tr>
-          <tr className="border-b bg-gray-50 dark:bg-gray-800">
+          <tr className="border-b bg-gray-50">
             <th
               scope="row"
               className="px-6 py-4 border-r text-md text-neutral-800 font-normal text-gray-900 whitespace-nowrap"
@@ -123,7 +123,7 @@ export const Table = () => {
               </a>
             </td>
           </tr>
-          <tr className="bg-white border-b dark:bg-gray-900">
+          <tr className="bg-white border-b">
             <th
               scope="row"
               className="px-6 py-4 border-r text-md text-neutral-800 font-normal text-gray-900 whitespace-nowrap"
@@ -175,7 +175,7 @@ export const Table = () => {
               </a>
             </td>
           </tr>
-          <tr className="border-b bg-gray-50 dark:bg-gray-800">
+          <tr className="border-b bg-gray-50">
             <th
               scope="row"
               className="px-6 py-4 border-r text-md text-neutral-800 font-normal text-gray-900 whitespace-nowrap"
